@@ -37,7 +37,7 @@ export class StockInput extends React.Component {
     const purpose = this.props.purpose;
     return (
       <div>
-        <legend>{purpose}:</legend>
+        <legend>{purpose}</legend>
         <input className="Simulator-individual-input"
                value={value}
                type={this.props.type}

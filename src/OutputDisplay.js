@@ -45,6 +45,8 @@ const formatter = new Intl.NumberFormat('en-US', {
   maximumFractionDigits: 0,
 });
 
+ 
+
 export class OutputDisplay extends React.Component {
   render() {
     let data_array = [];
@@ -109,11 +111,10 @@ export class OutputDisplay extends React.Component {
           <Line type="linear" dataKey="twenty_fifth" stroke="green" yAxisId={0}/>
           <Line type="linear" dataKey="fifth" stroke="red" yAxisId={0}/>
           <Line type="linear" dataKey="principal" stroke="black" yAxisId={0}/>
-
+          
         </LineChart>
       );
     }
-
 
     return (
       <table className="Simulator-table">

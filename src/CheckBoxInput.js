@@ -16,12 +16,15 @@ export class CheckBoxInput extends React.Component {
     const purpose = this.props.purpose;
     return (
       <div>
-        <legend>{purpose}:</legend>
-        <input className="Simulator-individual-input"
+        {/* <legend>{purpose}</legend> */}
+        <input className = "checkbox-selected-backbground"
+               id = "checkbox-input"
                value={value}
                type="checkbox"
                checked={checked}
-               onChange={this.handleChange}/>
+               onClick={this.handleChange}
+        />
+        <label for='checkbox-input'>{purpose}</label>
       </div>
     );
   }

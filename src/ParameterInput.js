@@ -22,17 +22,17 @@ export class ParameterInput extends React.Component {
     }
   }
 
-
   render() {
     const value = this.props.value;
     const purpose = this.props.purpose;
     return (
       <div>
-        <legend>{purpose}:</legend>
+        <legend>{purpose}</legend>
         <input className="Simulator-individual-input"
                value={value}
                type={this.props.type}
-               onChange={this.handleChange}/>
+               onChange={this.handleChange}
+        />
       </div>
     );
   }
