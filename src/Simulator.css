@@ -1,0 +1,51 @@
+.Simulator {
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.Simulator-div {
+    flex-direction: row;
+    border-style: hidden;
+    border-width: medium;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.Simulator-individual-input {
+    margin: 10px;
+}
+
+.Simulator-input {
+    margin: 10px;
+    /*background-color: #282c34;*/
+    float: left;
+    border-style: hidden;
+    border-width: medium;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    font-size: calc(4px + 2vmin);
+    color: #505050;
+    display: inline-block
+}
+
+td, th {
+    padding: 0 2vmin 0 0;
+}
+
+.Simulator-table {
+    margin: 10px;
+    float: left;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: calc(2vmin);
+    color: #505050;
+    display: inline-block
+}
